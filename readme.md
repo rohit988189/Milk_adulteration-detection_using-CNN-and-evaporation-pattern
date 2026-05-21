@@ -261,6 +261,89 @@ confusion_matrix.png
 # How to Run the Project
 
 ## 1. Clone Repository
+````md
+## 2. Create Virtual Environment
+
+```bash
+python -m venv venv
+````
+
+---
+
+## 3. Activate Environment
+
+### Windows
+
+```bash
+venv\Scripts\activate
+```
+
+---
+
+## 4. Install Requirements
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## 5. Generate Metadata
+
+```bash
+python generate_metadata.py
+```
+
+---
+
+## 6. Train Model
+
+```bash
+python train_model.py
+```
+
+---
+
+# Future Enhancements
+
+* Real-time adulteration detection
+* Mobile application integration
+* Flask web deployment
+* Concentration estimation
+* Multi-adulterant detection
+* IoT-based smart milk testing system
+
+---
+
+# Applications
+
+* Dairy Industry
+* Food Quality Testing
+* Milk Collection Centers
+* Smart Food Inspection Systems
+* Agricultural Research
+
+---
+
+# Research Contribution
+
+This work demonstrates that milk adulteration can be effectively identified using evaporation-pattern image analysis combined with deep learning techniques. The proposed approach provides a low-cost and scalable alternative to traditional laboratory testing methods.
+
+---
+
+# Author
+
+Rohit Chavan
+
+---
+
+# License
+
+This project is developed for academic and research purposes.
+
+```
+```
+
 
 ```bash
 git clone <repository_link>
