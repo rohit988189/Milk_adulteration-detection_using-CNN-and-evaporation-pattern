@@ -55,6 +55,7 @@ Dataset included:
 
 ## Original Dataset Structure
 
+```text
 Milk_adulteration_images/
 ├── detergent/
 │   ├── 1_gm/
@@ -69,6 +70,7 @@ Milk_adulteration_images/
 ├── sugar/
 ├── Water/
 └── pure_milk/
+```
 
 ---
 
@@ -86,12 +88,14 @@ Milk_adulteration_images/
 
 # Final Dataset Structure
 
+```text
 CNN_Dataset/
 ├── detergent/
 ├── pure_milk/
 ├── salt/
 ├── sugar/
 └── water/
+```
 
 ---
 
@@ -138,6 +142,7 @@ CNN_Dataset/
 
 # Model Architecture
 
+```text
 Input Image (224×224×3)
         ↓
 MobileNetV2 Base Model
@@ -155,6 +160,7 @@ BatchNormalization
 Dropout
         ↓
 Output Layer (Softmax)
+```
 
 ---
 
@@ -217,6 +223,7 @@ Output Layer (Softmax)
 
 # Project Workflow
 
+```text
 Milk Sample Collection
         ↓
 Milk Evaporation Process
@@ -232,6 +239,7 @@ CNN Training
 Model Evaluation
         ↓
 Adulteration Prediction
+```
 
 ---
 
@@ -248,6 +256,7 @@ Adulteration Prediction
 
 # Files Generated
 
+```text
 milk_model.keras
 best_model.keras
 class_names.json
@@ -255,18 +264,25 @@ metadata.csv
 accuracy_graph.png
 loss_graph.png
 confusion_matrix.png
+```
 
 ---
 
 # How to Run the Project
 
 ## 1. Clone Repository
-````md
+
+```bash
+git clone <repository_link>
+```
+
+---
+
 ## 2. Create Virtual Environment
 
 ```bash
 python -m venv venv
-````
+```
 
 ---
 
@@ -306,22 +322,22 @@ python train_model.py
 
 # Future Enhancements
 
-* Real-time adulteration detection
-* Mobile application integration
-* Flask web deployment
-* Concentration estimation
-* Multi-adulterant detection
-* IoT-based smart milk testing system
+- Real-time adulteration detection
+- Mobile application integration
+- Flask web deployment
+- Concentration estimation
+- Multi-adulterant detection
+- IoT-based smart milk testing system
 
 ---
 
 # Applications
 
-* Dairy Industry
-* Food Quality Testing
-* Milk Collection Centers
-* Smart Food Inspection Systems
-* Agricultural Research
+- Dairy Industry
+- Food Quality Testing
+- Milk Collection Centers
+- Smart Food Inspection Systems
+- Agricultural Research
 
 ---
 
@@ -340,10 +356,3 @@ Rohit Chavan
 # License
 
 This project is developed for academic and research purposes.
-
-```
-```
-
-
-```bash
-git clone <repository_link>
